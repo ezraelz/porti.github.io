@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/porti/static/css/main.7e062fa7.css",
+    "main.js": "/porti/static/js/main.0be45f1a.js",
+    "static/js/453.59dd9bff.chunk.js": "/porti/static/js/453.59dd9bff.chunk.js",
+    "static/media/neon.webp": "/porti/static/media/neon.dd3dae38efd52c31feb5.webp",
+    "static/media/bgImage.webp": "/porti/static/media/bgImage.ccc36e39fe8e277e5dbc.webp",
+    "static/media/softlight.webp": "/porti/static/media/softlight.270eea7adce1f8b0e1e1.webp",
+    "static/media/bgImage7.webp": "/porti/static/media/bgImage7.f0f17471325ea84b166b.webp",
+    "static/media/bgImage5.webp": "/porti/static/media/bgImage5.4b0494dfce254ec278d7.webp",
+    "static/media/web.jpg": "/porti/static/media/web.c931f66810d11fa208e0.jpg",
+    "static/media/bgImage6.webp": "/porti/static/media/bgImage6.8461489ffb9bb5159fa0.webp",
+    "static/media/darkmode.webp": "/porti/static/media/darkmode.ca61194540513458fe8b.webp",
+    "static/media/bgImage2.webp": "/porti/static/media/bgImage2.97c3507573dffaa12e62.webp",
+    "static/media/brightlight.webp": "/porti/static/media/brightlight.97c3507573dffaa12e62.webp",
+    "static/media/team_3.png": "/porti/static/media/team_3.a380838c10084e10abbd.png",
+    "static/media/uxui.webp": "/porti/static/media/uxui.dfb92f5492c4460197c8.webp",
+    "static/media/propic.jpg": "/porti/static/media/propic.bcb240bc038a1ce784c5.jpg",
+    "static/media/bg_3.jpg": "/porti/static/media/bg_3.4b1549ecb7f19e3b16c1.jpg",
+    "static/media/consultin.jpg": "/porti/static/media/consultin.837a048e3812aef5387b.jpg",
+    "index.html": "/porti/index.html",
+    "main.7e062fa7.css.map": "/porti/static/css/main.7e062fa7.css.map",
+    "main.0be45f1a.js.map": "/porti/static/js/main.0be45f1a.js.map",
+    "453.59dd9bff.chunk.js.map": "/porti/static/js/453.59dd9bff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e062fa7.css",
+    "static/js/main.0be45f1a.js"
+  ]
+}
