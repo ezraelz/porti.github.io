@@ -69,7 +69,7 @@ const Footer = () => {
                     </div>
                     <div className="col col-3">
                     <div className="input-field">
-                        <form onSubmit={sendEmail}>
+                        <form ref={form} onSubmit={sendEmail}>
                             <div className="input">
                                 <input
                                     type="email"
