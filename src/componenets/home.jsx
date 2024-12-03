@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons/faTimes';
 import FaqShow from './faqShow';
 import emailjs from '@emailjs/browser';
-import axios from 'axios';
+import cv from '../static/cv.pdf';
 import proPic from '../static/img/propic.jpg';
 import bgImage from '../static/img/neon.webp';
 import bgImage1 from '../static/img/bgImage.webp';
@@ -13,7 +13,6 @@ import bgImage2 from '../static/img/bgImage2.webp';
 import bgImage3 from '../static/img/darkmode.webp';
 
 const Home = ({image, interval = 5000}) => {
-    const [formData, setFormData] = useState({title:'', email:'', message:'' });
     const [status, setStatus] = useState('');
     const [isActive, setIsActive] = useState(null);
     const [isHovered, setIsHovered] = useState(false);
@@ -155,7 +154,7 @@ const Home = ({image, interval = 5000}) => {
                                 Feel free to reach out.
                                 </p>
                                
-                                <button className='btn' id='resume'>Resume</button>
+                                <button className='btn' id='resume' download={cv}>Resume</button>
                                 
                             </div>
                     </div>
@@ -336,15 +335,13 @@ const Home = ({image, interval = 5000}) => {
                             
                         </div>
                         <div className="form-group">
-                            <form action="" onSubmit={sendEmail}>
+                            <form ref={form} action="" onSubmit={sendEmail}>
                                 <h1>Want to Ask a question?</h1>
                                 <div className="inputs">
                                     <div className="title-input" >
                                         <input
                                             type="text" 
                                             name='title'
-                                          
-                                            
                                             id='form-title'
                                             placeholder='write the title of your message here!'
                                             required
@@ -355,7 +352,6 @@ const Home = ({image, interval = 5000}) => {
                                             type="text"
                                             name="message" 
                                             id="text"
-                                           
                                             placeholder='write your message here!'
                                             required
                                         />
@@ -364,8 +360,7 @@ const Home = ({image, interval = 5000}) => {
                                         <input 
                                             type="email" 
                                             name="user_email" 
-                                            id="email" 
-                                            
+                                            id="email"                           
                                             placeholder='abc@gmail.com' 
                                             required
                                         />

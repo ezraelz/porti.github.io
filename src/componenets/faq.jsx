@@ -57,8 +57,7 @@ const Faq = () => {
                                     <div className="title-input" >
                                         <input
                                             type="text" 
-                                            name='title'
-                                            
+                                            name='title'                 
                                             id='form-title'
                                             placeholder='write the title of your message here!'
                                             required
@@ -68,8 +67,7 @@ const Faq = () => {
                                         <textarea 
                                             type="text"
                                             name="message" 
-                                            id="text"
-                                           
+                                            id="text"                                
                                             placeholder='write your message here!'
                                             required
                                         />
@@ -78,8 +76,7 @@ const Faq = () => {
                                         <input 
                                             type="email" 
                                             name="user_email" 
-                                            id="email" 
-                                            
+                                            id="email"                            
                                             placeholder='abc@gmail.com' 
                                             required
                                         />
