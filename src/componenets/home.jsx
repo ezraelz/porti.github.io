@@ -69,7 +69,6 @@ const Home = ({image, interval = 5000}) => {
         return () => clearInterval(slideInterval);
     }, [images.length, interval]);
 
-
     const hoverEffect = (className) => {
         setIsHovered(className);
     };
@@ -341,7 +340,7 @@ const Home = ({image, interval = 5000}) => {
                                     <div className="title-input" >
                                         <input
                                             type="text" 
-                                            name='title'
+                                            name='title'                 
                                             id='form-title'
                                             placeholder='write the title of your message here!'
                                             required
@@ -351,7 +350,7 @@ const Home = ({image, interval = 5000}) => {
                                         <textarea 
                                             type="text"
                                             name="message" 
-                                            id="text"
+                                            id="text"                                
                                             placeholder='write your message here!'
                                             required
                                         />
@@ -360,7 +359,7 @@ const Home = ({image, interval = 5000}) => {
                                         <input 
                                             type="email" 
                                             name="user_email" 
-                                            id="email"                           
+                                            id="email"                            
                                             placeholder='abc@gmail.com' 
                                             required
                                         />
