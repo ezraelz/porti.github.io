@@ -30,12 +30,12 @@ const Home = ({image, interval = 5000}) => {
             .then(
                 () => {
                     alert('Message sent successfully!');
-                    setIsLoading(false);
+                    setIsLoading(true);
                 },
                 (error) => {
                     console.error(error.text);
                     alert('Failed to send the message.');
-                    setIsLoading(false);
+                    setIsLoading(true);
                 }
             );
     
@@ -368,7 +368,7 @@ const Home = ({image, interval = 5000}) => {
                                     <button type="submit">Submit</button>
                                 </div>
                             </form>
-                            {status && <p style={{color: 'red'}}>{status}</p>}
+                            
                         </div>
                     </div>
                 </div>
