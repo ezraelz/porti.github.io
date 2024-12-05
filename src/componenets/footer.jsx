@@ -1,5 +1,4 @@
 import React,{useState,useEffect,useRef} from 'react';
-import axios from 'axios';
 import emailjs from '@emailjs/browser';
 import { Link } from 'react-router-dom';
 // Import Font Awesome core and icons
@@ -72,16 +71,14 @@ const Footer = () => {
                         <form ref={form} onSubmit={sendEmail}>
                             <div className="input">
                                 <input
-                                    type="email"
-                                    name="user_email"
-                                    id="input"
+                                    type="email" 
+                                    name="user_email" 
+                                    id="email"
                                     placeholder="Leave your email here"
                                     required
                                 />
                             </div>
-                            <div className="button">
-                                <button type="submit">Submit</button>
-                            </div>
+                            <button type="submit" className="button">Submit</button>
                         </form>
                         {status && <p style={{ color: status.includes('successfully') ? 'green' : 'red' }}>{status}</p>}
                         </div>

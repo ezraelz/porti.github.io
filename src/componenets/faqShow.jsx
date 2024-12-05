@@ -11,23 +11,7 @@ const FaqShow = () => {
     const [isActive, setIsActive] = useState(null);
     const [isHovered, setIsHovered] = useState(false);
 
-    useEffect(()=>{
-        const fetchData = async () => {
-            try {
-                const response = await axios.get('http://127.0.0.1:8000/home/info/');
-                setDatas(response.data);
-                if (response.data && response.data.length > 0){
-                    setDataExists(true)
-                } else {
-                    setDataExists(false)
-                }
-            } catch (error) {
-                console.error('Error fetching Data:', error);
-            }
-        };
-
-        fetchData();
-    }, []);
+    
 
 
     const [currentIndex, setCurrentIndex] = useState(0);

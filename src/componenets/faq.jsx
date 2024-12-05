@@ -1,9 +1,6 @@
 import FaqShow from './faqShow';
 import {useState,useEffect,useRef} from 'react';
 import emailjs from '@emailjs/browser';
-import axios from 'axios';
-import { gapi } from 'gapi-script';
-
 const SCOPES = "https://www.googleapis.com/auth/gmail.readonly";
 
 const Faq = () => {

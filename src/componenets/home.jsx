@@ -30,12 +30,12 @@ const Home = ({image, interval = 5000}) => {
             .then(
                 () => {
                     alert('Message sent successfully!');
-                    setIsLoading(true);
+                    setIsLoading(false);
                 },
                 (error) => {
                     console.error(error.text);
                     alert('Failed to send the message.');
-                    setIsLoading(true);
+                    setIsLoading(false);
                 }
             );
     
