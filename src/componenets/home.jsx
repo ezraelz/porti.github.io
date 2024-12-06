@@ -334,7 +334,7 @@ const Home = ({image, interval = 5000}) => {
                             
                         </div>
                         <div className="form-group">
-                            <form ref={form} action="" onSubmit={sendEmail}>
+                            <form ref={form} action="" onSubmit={sendEmail}>    
                                 <h1>Want to Ask a question?</h1>
                                 <div className="inputs">
                                     <div className="title-input" >
@@ -367,13 +367,10 @@ const Home = ({image, interval = 5000}) => {
                                     <button type="submit">Submit</button>
                                 </div>
                             </form>
-                            
                         </div>
                     </div>
                 </div>
-                
             </div>
-            
         </> 
     );
 }
