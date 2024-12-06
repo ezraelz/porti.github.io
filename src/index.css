@@ -1430,7 +1430,7 @@ code {
   border-radius: 5px;
   margin-bottom: 1em;
 }
-.input-field .input #input{
+.input-field .input #email{
   height: 100%;
   min-width: 18em;
   border-radius: 5px;
@@ -1439,9 +1439,6 @@ code {
 }
 .input-field .button{
   margin-bottom: 1em;
-  height: 2em;
-}
-.input-field .button button{
   height: 2.45em;
   width: 5em;
   font-size: 14px;
@@ -1451,8 +1448,9 @@ code {
   background: var(--progress-js);
   cursor: pointer;
 }
-.input-field .button button:hover{
+.input-field .button:hover{
   background: none;
+  color: var(--progress-js);
   border: 1.5px solid var(--progress-js);
   font-size: 13.9px;
 }
